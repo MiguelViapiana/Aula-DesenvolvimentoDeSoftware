@@ -7,7 +7,6 @@ public class Vetores {
         int[] vet1 = new int[3];
 
         vet1[1] = 450;
-        int vlrPos1 = vet1[0];
 
         //System.out.println("Vet1 posição 1 "+ vlrPos1);
         //System.out.println("Vet posição 2 "+ vet1[1]);
