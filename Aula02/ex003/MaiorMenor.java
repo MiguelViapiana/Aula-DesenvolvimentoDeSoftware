@@ -1,4 +1,4 @@
-package ex003;
+package Aula02.ex003;
 import java.util.Scanner;
 
 public class MaiorMenor {

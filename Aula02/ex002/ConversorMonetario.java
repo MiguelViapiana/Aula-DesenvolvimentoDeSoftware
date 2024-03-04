@@ -1,4 +1,4 @@
-package ex002;
+package Aula02.ex002;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ex001;
+package Aula02.ex001;
 import java.util.Scanner;
 
 public class AreaRetangulo {

@@ -1,4 +1,4 @@
-package ex004;
+package Aula02.ex004;
 import java.util.Scanner;
 
 public class VerificadorIdade {
