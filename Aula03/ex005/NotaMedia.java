@@ -19,13 +19,16 @@ public class NotaMedia {
             System.out.println("informe o nome do aluno " + (i + 1) + ":");
             System.out.println("Nome: ");
             aluno[i] = leitor.nextLine();
+
             System.out.println("Matrícula: ");
-            
-            matriculas[i] = leitor.nextInt();     
+            matriculas[i] = leitor.nextInt(); 
+
             System.out.println("Nota 1:");
             nota1[i] = leitor.nextDouble();
+
             System.out.println("Nota 2:");
             nota2[i] = leitor.nextDouble();
+            
             notaFinal[i] =(nota1[i] + nota2[i])/2;
             leitor.nextLine();
 
