@@ -22,10 +22,10 @@ public class Exemplos {
     var b = 10; // inferência de tipo dinâmico (fracamente tipado)
     short c = 5;
     var d = 10;
-    float e = 10.5f;
-    double f = 10.5;
-    boolean g = true;
-    String h = "Olá, mundo!";
+    //float e = 10.5f;
+   // double f = 10.5;
+    //boolean g = true;
+    //String h = "Olá, mundo!";
 
     // System.out.println("O valor da variável a é: " + a);
     System.out.printf("O valor da variável a é: %d%n", a);

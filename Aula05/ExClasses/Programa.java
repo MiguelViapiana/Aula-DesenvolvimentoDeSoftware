@@ -35,11 +35,11 @@ public class Programa {
         a1.nome = sc.nextLine();
         a1.nota1 = sc.nextInt();
         a1.nota2 = sc.nextInt();
-        Aluno a2 = new Aluno();
-        Aluno a3 = new Aluno();
-        Aluno a4 = new Aluno();
-        Aluno a5 = new Aluno();
-        
+        //Aluno a2 = new Aluno();
+        //Aluno a3 = new Aluno();
+        //Aluno a4 = new Aluno();
+        //Aluno a5 = new Aluno();
+        sc.close();
     }
 
 }
