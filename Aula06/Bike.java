@@ -8,7 +8,4 @@ public class Bike {
     public void alterarMarcha(int novaMarcha){
         marchaAtual = novaMarcha;
     }
-
-
-
 }
