@@ -1,7 +1,23 @@
 package Aula06;
 
 public class Programa {
+
     public static void main(String[] args){
+
+        Pessoa pessoa1 = new Pessoa("Ricardo", 25);
+        Pessoa pessoa2 = new Pessoa("Ana", 21);
+        Pessoa pessoa3 = new Pessoa();
+
+        System.out.println("Pessoa 1 (nome): "+pessoa1.nome);
+        System.out.println("Pessoa 1 (nome): "+pessoa2.nome);
+        System.out.println("Pessoa 1 (nome): "+pessoa3.nome);
+        System.out.println();
+        System.out.println("Pessoa 1 (nome): "+pessoa1);
+        System.out.println("Pessoa 1 (nome): "+pessoa2);
+        System.out.println("Pessoa 1 (nome): "+pessoa3);
+    }
+
+    public static void mainAntigo(String[] args){
 
         String texto1 = "100";
         String texto2 = "50";
