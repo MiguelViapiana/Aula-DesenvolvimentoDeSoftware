@@ -1,4 +1,4 @@
-
-Antonio;41 5465-5656;antonio@gamil.com
-Carlos;44 5454-8989;carlos@gmail.com
-
+nome;telefone;email;cpf;peso;altura;cnpj;inscricao;ano
+Antonio;41 5465-5656;antonio@email.com;1234567;60;160;;;
+Carlos;44 5454-8989;carlos@email.com;7654321;68;170;;;
+Amazon;41 9999-4444;amazon@email.com;;;;343434343;54545454;2001
