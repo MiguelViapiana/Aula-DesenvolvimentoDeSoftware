@@ -1,4 +1,5 @@
-package view;
+package br.edu.up.util;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -72,12 +73,12 @@ public class Prompt {
 		}
 	}
 
-
 	/**
 	 * Faz a leitura de um caractere digitado no prompt de comandos e retorna no
 	 * formato ISO-8859-1 Latin ou UTF-8.
 	 * 
-	 * Vai retornar o caractere com espaço vazio " " se o valor digitado for inválido!
+	 * Vai retornar o caractere com espaço vazio " " se o valor digitado for
+	 * inválido!
 	 * 
 	 * @return String
 	 */
@@ -86,22 +87,22 @@ public class Prompt {
 		return lerCaractere();
 	}
 
-
 	/**
 	 * Faz a leitura de um caractere digitado no prompt de comandos e retorna no
 	 * formato ISO-8859-1 Latin ou UTF-8.
 	 * 
-	 * Vai retornar o caractere com espaço vazio " " se o valor digitado for inválido!
+	 * Vai retornar o caractere com espaço vazio " " se o valor digitado for
+	 * inválido!
 	 * 
 	 * @return String
 	 */
-	public static char lerCaractere(){
+	public static char lerCaractere() {
 		char caractere = ' ';
 		try {
 			InputStreamReader isr = new InputStreamReader(System.in);
 			BufferedReader br = new BufferedReader(isr);
 			caractere = (char) br.read();
-		} catch (IOException e) {			
+		} catch (IOException e) {
 		}
 		return caractere;
 	}
@@ -174,25 +175,21 @@ public class Prompt {
 		System.out.print("Pressione ENTER para continuar...");
 		lerLinha();
 	}
-	
-	
- /**
-   * Limpa o console
-   */
-	public static void limparConsole(){
-			try{
-					if (System.getProperty("os.name").contains("Windows")){
-							new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
-					}
-					else{
-							Runtime.getRuntime().exec("clear");
-					}
+
+	/**
+	 * Limpa o console
+	 */
+	public static void limparConsole() {
+		try {
+			if (System.getProperty("os.name").contains("Windows")) {
+				new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+			} else {
+				Runtime.getRuntime().exec("clear");
 			}
-			catch (final Exception e)
-			{
-				 for (int i = 0; i < 100; i++) {
-							Prompt.imprimir("\n");
-				 }
+		} catch (final Exception e) {
+			for (int i = 0; i < 100; i++) {
+				Prompt.imprimir("\n");
 			}
+		}
 	}
 }

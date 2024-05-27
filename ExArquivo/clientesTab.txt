@@ -1,0 +1,3 @@
+nome	telefone	email
+Carlos	41 3434-3434	carlos@email.com
+Pedro	44 5454-4545	pedro@email.com
